@@ -1,23 +1,32 @@
-// frontend-app/src/App.js
-import React, { useEffect, useState } from "react";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ThemeProvider, createTheme } from '@mui/material';
+import Login from './pages/Login';
+import Welcome from './pages/Welcome';
+import './App.css';
+
+// Create a custom theme
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#1976d2',
+      dark: '#115293',
+    },
+  },
+});
 
 function App() {
-  const [message, setMessage] = useState("");
-
-  useEffect(() => {
-    // Sesuaikan URL backend Laravel Anda (misal: http://localhost:8000/api/hello)
-    // Atau jika sudah dideploy, gunakan URL backend yang sudah online
-    fetch("http://localhost:8000/api/hello")
-      .then((response) => response.json())
-      .then((data) => setMessage(data.message))
-      .catch((error) => console.error("Error fetching data:", error));
-  }, []);
-
   return (
-    <div className="App">
-      <h1>Frontend React</h1>
-      <p>{message ? message : "Loading message from backend..."}</p>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Router basename="/agunggema-debug/React-page">
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/welcome" element={<Welcome />} />
+          </Routes>
+        </div>
+      </Router>
+    </ThemeProvider>
   );
 }
 
