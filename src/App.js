@@ -1,17 +1,17 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ThemeProvider, createTheme } from '@mui/material';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Welcome from './pages/Welcome';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ThemeProvider, createTheme } from "@mui/material";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Welcome from "./pages/Welcome";
+import "./App.css";
 
 // Create a custom theme
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2',
-      dark: '#115293',
+      main: "#1976d2",
+      dark: "#115293",
     },
   },
 });
@@ -19,7 +19,7 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Router basename="/agunggema-debug/React-page">
+      <Router basename="simplecrud-react-app">
         <div className="App">
           <Routes>
             <Route path="/" element={<Login />} />
