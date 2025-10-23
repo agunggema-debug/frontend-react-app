@@ -4,6 +4,8 @@ import { ThemeProvider, createTheme } from "@mui/material";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Welcome from "./pages/Welcome";
+import Dashboard from "./pages/Dashboard";
+import Maaf from "./pages/Maaf";
 import "./App.css";
 
 // Create a custom theme
@@ -25,6 +27,8 @@ function App() {
             <Route path="/" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/welcome" element={<Welcome />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/maaf" element={<Maaf />} />
           </Routes>
         </div>
       </Router>
