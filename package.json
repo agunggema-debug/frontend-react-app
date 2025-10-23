@@ -17,7 +17,7 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/agunggema-debug/React-page/",
+  "homepage": "https://github.com/agunggema-debug/simplecrud-react-app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
