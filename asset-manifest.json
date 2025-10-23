@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/agunggema-debug/simplecrud-react-app/static/css/main.c80ea8ce.css",
-    "main.js": "/agunggema-debug/simplecrud-react-app/static/js/main.8de6c6d7.js",
-    "static/js/453.a7227f56.chunk.js": "/agunggema-debug/simplecrud-react-app/static/js/453.a7227f56.chunk.js",
-    "index.html": "/agunggema-debug/simplecrud-react-app/index.html",
-    "main.c80ea8ce.css.map": "/agunggema-debug/simplecrud-react-app/static/css/main.c80ea8ce.css.map",
-    "main.8de6c6d7.js.map": "/agunggema-debug/simplecrud-react-app/static/js/main.8de6c6d7.js.map",
-    "453.a7227f56.chunk.js.map": "/agunggema-debug/simplecrud-react-app/static/js/453.a7227f56.chunk.js.map"
+    "main.css": "/simplecrud-react-app/static/css/main.c80ea8ce.css",
+    "main.js": "/simplecrud-react-app/static/js/main.7836a2ab.js",
+    "static/js/453.aa7e8906.chunk.js": "/simplecrud-react-app/static/js/453.aa7e8906.chunk.js",
+    "index.html": "/simplecrud-react-app/index.html",
+    "main.c80ea8ce.css.map": "/simplecrud-react-app/static/css/main.c80ea8ce.css.map",
+    "main.7836a2ab.js.map": "/simplecrud-react-app/static/js/main.7836a2ab.js.map",
+    "453.aa7e8906.chunk.js.map": "/simplecrud-react-app/static/js/453.aa7e8906.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c80ea8ce.css",
-    "static/js/main.8de6c6d7.js"
+    "static/js/main.7836a2ab.js"
   ]
 }
