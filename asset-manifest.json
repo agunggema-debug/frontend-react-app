@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/simplecrud-react-app/static/css/main.c80ea8ce.css",
-    "main.js": "/simplecrud-react-app/static/js/main.7836a2ab.js",
+    "main.js": "/simplecrud-react-app/static/js/main.906f270d.js",
     "static/js/453.aa7e8906.chunk.js": "/simplecrud-react-app/static/js/453.aa7e8906.chunk.js",
     "index.html": "/simplecrud-react-app/index.html",
     "main.c80ea8ce.css.map": "/simplecrud-react-app/static/css/main.c80ea8ce.css.map",
-    "main.7836a2ab.js.map": "/simplecrud-react-app/static/js/main.7836a2ab.js.map",
+    "main.906f270d.js.map": "/simplecrud-react-app/static/js/main.906f270d.js.map",
     "453.aa7e8906.chunk.js.map": "/simplecrud-react-app/static/js/453.aa7e8906.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c80ea8ce.css",
-    "static/js/main.7836a2ab.js"
+    "static/js/main.906f270d.js"
   ]
 }
